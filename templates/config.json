@@ -1,0 +1,16 @@
+{
+  "experiment_id": "<unique-experiment-id>",
+  "language": "<language>",
+  "repo": {
+    "name": "<owner>/<repo>",
+    "sha": "<pinned-commit-sha>"
+  },
+  "methods": ["rag", "ripgrep"],
+  "budget": {
+    "max_context_tokens": 30000
+  },
+  "agent": {
+    "provider": "anthropic",
+    "model": "<model-name>"
+  }
+}

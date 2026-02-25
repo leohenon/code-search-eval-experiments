@@ -15,11 +15,6 @@ Experiment data and results for
 See [templates/config.json](templates/config.json) for the experiment
 config format.
 
-## Scoring
+## Running
 
-    python -m scripts.run_eval \
-        --tasks experiments/<id>/tasks \
-        --responses experiments/<id>/responses/<method> \
-        --out experiments/<id>/results/<method>.json
-
-Run once per method. Compare the result files to evaluate.
+python scripts/run_experiment.py --experiment <path-to-experiments>/<id>

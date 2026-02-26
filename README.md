@@ -17,6 +17,9 @@ See [templates/config.json](templates/config.json) and
 
 ## Running
 
+    export ANTHROPIC_API_KEY=...
+    export VOYAGE_API_KEY=...
+
     # 1. Start Qdrant
     docker run -p 6333:6333 -v qdrant_data:/qdrant/storage qdrant/qdrant
 

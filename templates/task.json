@@ -1,0 +1,14 @@
+{
+  "task_id": "<unique-task-id>",
+  "language": "<language>",
+  "repo": {"name": "<owner>/<repo>", "sha": "<pinned-commit-sha>"},
+  "task_type": "<task-type>",
+  "prompt": "<task-description>",
+  "canonical_query": "<search-query>",
+  "gold_evidence": [
+    {"path": "<file-path>", "start": 1, "end": 10}
+  ],
+  "critical_evidence": [
+    {"path": "<file-path>", "start": 1, "end": 10}
+  ]
+}

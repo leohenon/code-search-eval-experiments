@@ -5,6 +5,7 @@
     "name": "<owner>/<repo>",
     "sha": "<pinned-commit-sha>"
   },
+  "repo_path": "/absolute/path/to/local/checkout",
   "methods": ["rag", "ripgrep"],
   "budget": {
     "max_context_tokens": 30000

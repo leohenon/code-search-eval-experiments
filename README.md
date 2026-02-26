@@ -1,7 +1,7 @@
 # code-search-eval-experiments
 
 Experiment data and results for
-[code-search-eval-harness](../code-search-eval-harness).
+[code-search-eval-harness](https://github.com/leohenon/code-search-eval-harness).
 
 ## Structure
 

@@ -3,7 +3,7 @@
 Experiment data and results for
 [code-search-eval-harness](https://github.com/leohenon/code-search-eval-harness).
 
-## Structure
+## File Tree
 
     templates/                      config and task templates
     experiments/<experiment-id>/
